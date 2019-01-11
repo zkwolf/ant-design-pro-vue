@@ -1,5 +1,6 @@
 <template>
   <global-layout>
+    <multi-tab></multi-tab>
     <transition name="page-transition">
       <keep-alive v-if="keepAlive">
         <router-view />
@@ -11,11 +12,13 @@
 
 <script>
   import GlobalLayout from '@/components/page/GlobalLayout'
+  import MultiTab from '@/components/tools/MultiTab'
 
   export default {
     name: 'BasicLayout',
     components: {
-      GlobalLayout
+      GlobalLayout,
+      MultiTab
     },
     data () {
       return {
