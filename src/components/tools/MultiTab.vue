@@ -1,5 +1,5 @@
 <template>
-  <div style="margin: 1px -24px 0">
+  <div style="margin: -23px -24px 0">
     <a-tabs
       hideAdd
       v-model="activeKey"
