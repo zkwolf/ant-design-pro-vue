@@ -75,8 +75,8 @@
 </template>
 
 <script>
-import RepositoryForm from './RepositoryForm'
-import TaskForm from './TaskForm'
+import RepositoryForm from './RepositoryForm.vue'
+import TaskForm from './TaskForm.vue'
 import FooterToolBar from '@/components/FooterToolbar'
 import { baseMixin } from '@/store/app-mixin'
 

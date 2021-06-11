@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import AvatarDropdown from './AvatarDropdown'
+import AvatarDropdown from './AvatarDropdown.vue'
 import SelectLang from '@/components/SelectLang'
 
 export default {

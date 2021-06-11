@@ -71,8 +71,8 @@
 
 <script>
 // 演示如何使用 this.$dialog 封装 modal 组件
-import TaskForm from './modules/TaskForm'
-import Info from './components/Info'
+import TaskForm from './modules/TaskForm.vue'
+import Info from './components/Info.vue'
 
 const data = []
 data.push({

@@ -1,3 +1,3 @@
-import StandardFormRow from './StandardFormRow'
+import StandardFormRow from './StandardFormRow.vue'
 
 export default StandardFormRow

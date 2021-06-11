@@ -46,7 +46,7 @@
 </template>
 
 <script>
-import AvatarModal from './AvatarModal'
+import AvatarModal from './AvatarModal.vue'
 import { baseMixin } from '@/store/app-mixin'
 
 export default {

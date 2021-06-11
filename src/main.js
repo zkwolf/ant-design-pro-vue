@@ -16,6 +16,7 @@ import themePluginConfig from '../config/themePluginConfig'
 import './mock'
 
 import bootstrap from './core/bootstrap'
+import 'ant-design-vue/dist/antd.less'
 import './core/lazy_use' // use lazy load components
 import './permission' // permission control
 import './utils/filter' // global filter

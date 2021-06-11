@@ -100,7 +100,7 @@
 <script>
 import moment from 'moment'
 import { TagSelect, StandardFormRow, Ellipsis, AvatarList } from '@/components'
-import CardInfo from './components/CardInfo'
+import CardInfo from './components/CardInfo.vue'
 const TagSelectOption = TagSelect.Option
 const AvatarListItem = AvatarList.AvatarItem
 

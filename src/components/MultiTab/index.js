@@ -1,5 +1,5 @@
 import events from './events'
-import MultiTab from './MultiTab'
+import MultiTab from './MultiTab.vue'
 import './index.less'
 
 const api = {

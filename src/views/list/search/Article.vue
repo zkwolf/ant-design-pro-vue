@@ -95,7 +95,7 @@
 
 <script>
 import { TagSelect, StandardFormRow, ArticleListContent } from '@/components'
-import IconText from './components/IconText'
+import IconText from './components/IconText.vue'
 const TagSelectOption = TagSelect.Option
 
 const owners = [

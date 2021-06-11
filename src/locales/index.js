@@ -38,7 +38,7 @@ export function loadLanguageAsync (lang = defaultLang) {
     storage.set('lang', lang)
     if (i18n.locale !== lang) {
       if (!loadedLanguages.includes(lang)) {
-        return import(/* webpackChunkName: "lang-[request]" */ `./lang/${lang}`).then(msg => {
+        return import(/* webpackChunkName: "lang-[request]" */ /* @vite-ignore */`./lang/${lang}`).then(msg => {
           const locale = msg.default
           i18n.setLocaleMessage(lang, locale)
           loadedLanguages.push(lang)

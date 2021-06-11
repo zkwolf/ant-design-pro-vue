@@ -123,8 +123,8 @@ import moment from 'moment'
 import { STable, Ellipsis } from '@/components'
 import { getRoleList, getServiceList } from '@/api/manage'
 
-import StepByStepModal from './modules/StepByStepModal'
-import CreateForm from './modules/CreateForm'
+import StepByStepModal from './modules/StepByStepModal.vue'
+import CreateForm from './modules/CreateForm.vue'
 
 const columns = [
   {
